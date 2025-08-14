@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
+    
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",

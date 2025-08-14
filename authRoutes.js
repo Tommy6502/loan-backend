@@ -15,7 +15,9 @@ export async function registerUser(userData) {
 
 // Login user
 export async function loginUser(email, password) {
+  
   try {
+    
     console.log('🔐 Attempting to authenticate user:', email);
     const user = await authenticateUser(email, password);
     console.log('✅ User authenticated successfully:', { id: user._id, email: user.email, role: user.role });

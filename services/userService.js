@@ -54,7 +54,7 @@ export const createUser = async (userData) => {
 export const authenticateUser = async (email, password) => {
   try {
     console.log('🔐 Authenticating user with Mongoose:', email);
-    
+   
     // Find user by email (include password for comparison)
     const user = await User.findOne({ 
       email: email.toLowerCase(),

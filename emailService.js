@@ -5,8 +5,7 @@ import 'dotenv/config';
  * Email Service for sending notifications
  * Production-ready implementation with SMTP support
  */
-console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-console.log(process.env.SMTP_HOST, process.env.SMTP_PORT, process.env.SMTP_USER, process.env.SMTP_PASS);
+
 
 // Create SMTP transporter
 const createTransporter = () => {
@@ -118,7 +117,7 @@ export async function sendWelcomeEmailWithCredentials(userData) {
             
             <div class="footer">
               <p>If you have any questions, please contact us at support@financialsolutions.com</p>
-              <p>© 2025 Financial Solutions. All rights reserved.</p>
+              <p>© 2025 Baran Ozdemir. All rights reserved.</p>
               <p style="font-size: 12px;">This is an automated message. Please do not reply to this email.</p>
             </div>
           </div>
@@ -155,7 +154,7 @@ export async function sendWelcomeEmailWithCredentials(userData) {
         
         If you have any questions, please contact us at support@financialsolutions.com
         
-        © 2025 Financial Solutions. All rights reserved.
+        © 2025 Baran Ozdemir. All rights reserved.
       `
     };
 
@@ -248,7 +247,7 @@ export async function sendWelcomeEmail(userData) {
             
             <div class="footer">
               <p>If you have any questions, please contact us at support@financialsolutions.com</p>
-              <p>© 2025 Financial Solutions. All rights reserved.</p>
+              <p>© 2025 Baran Ozdemir. All rights reserved.</p>
             </div>
           </div>
         </body>
