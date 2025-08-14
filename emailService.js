@@ -117,8 +117,7 @@ export async function sendWelcomeEmailWithCredentials(userData) {
             
             <div class="footer">
               <p>If you have any questions, please contact us at support@financialsolutions.com</p>
-              <p>© 2025 Baran Ozdemir. All rights reserved.</p>
-              <p style="font-size: 12px;">This is an automated message. Please do not reply to this email.</p>
+              <p>© 2025 Baran Ozdemir</p>
             </div>
           </div>
         </body>
@@ -154,7 +153,7 @@ export async function sendWelcomeEmailWithCredentials(userData) {
         
         If you have any questions, please contact us at support@financialsolutions.com
         
-        © 2025 Baran Ozdemir. All rights reserved.
+        © 2025 Baran Ozdemir
       `
     };
 
@@ -247,7 +246,7 @@ export async function sendWelcomeEmail(userData) {
             
             <div class="footer">
               <p>If you have any questions, please contact us at support@financialsolutions.com</p>
-              <p>© 2025 Baran Ozdemir. All rights reserved.</p>
+              <p>© 2025 Baran Ozdemir</p>
             </div>
           </div>
         </body>
